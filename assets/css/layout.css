@@ -1,3 +1,18 @@
+body {
+  font-family: "Helvetica Neue", "Arial"; }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+
+.pointer {
+  cursor: pointer; }
+
+.top {
+  height: 864px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/shutterstock.png); }
 
 /*# sourceMappingURL=layout.css.map */
