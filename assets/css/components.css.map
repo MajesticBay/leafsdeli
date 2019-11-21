@@ -1,11 +1,1 @@
-<<<<<<< HEAD
-{
-"version": 3,
-"mappings": "AAEA,SAAU;EACN,SAAS,EAAE,KAAK;EAChB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,SAAS;EAClB,gBAAgB,ECHN,OAAO;EDIjB,aAAa,ECYA,GAAG;EDXhB,SAAS,ECCH,IAAI",
-"sources": ["components.scss","placeholders.scss"],
-"names": [],
-"file": "components.css"
-}
-=======
 {"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"components.css"}
->>>>>>> 0cb2ea4132b16e751d0abfccc68b45636e2a2a1d
