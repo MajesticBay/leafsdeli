@@ -148,6 +148,16 @@ a {
   text-decoration: none;
 }
 
+.pv-12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.ph-27 {
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
 .btn-call {
   max-width: 229px;
   display: flex;
