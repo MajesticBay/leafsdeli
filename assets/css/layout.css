@@ -16,13 +16,8 @@ body {
   height: 864px;
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   align-items: center;
   background-image: url(../images/shutterstock.png); }
-=======
-  background-image: url(../images/shutterstock.png);
-}
->>>>>>> 0cb2ea4132b16e751d0abfccc68b45636e2a2a1d
 
 .top__cafe-header-desc {
   color: #ffffff;
