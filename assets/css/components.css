@@ -1,3 +1,11 @@
-
+.btn-call {
+  max-width: 229px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 27px;
+  background-color: #65DB30;
+  border-radius: 6px;
+  font-size: 22px; }
 
 /*# sourceMappingURL=components.css.map */

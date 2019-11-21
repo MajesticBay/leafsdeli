@@ -134,6 +134,16 @@ table {
 a {
   text-decoration: none; }
 
+.btn-call {
+  max-width: 229px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 27px;
+  background-color: #65DB30;
+  border-radius: 6px;
+  font-size: 22px; }
+
 body {
   font-family: "Helvetica Neue", "Arial"; }
 
@@ -149,6 +159,11 @@ body {
   height: 864px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-image: url(../images/shutterstock.png); }
+
+.top__cafe-header-desc {
+  color: #ffffff;
+  font-size: 34px; }
 
 /*# sourceMappingURL=main.css.map */
