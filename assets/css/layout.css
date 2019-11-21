@@ -16,11 +16,14 @@ body {
   height: 864px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  background-image: url(../images/shutterstock.png); }
+  background-image: url(../images/shutterstock.png);
+}
 
 .top__cafe-header-desc {
   color: #ffffff;
-  font-size: 34px; }
+  font-size: 34px;
+}
 
 /*# sourceMappingURL=layout.css.map */

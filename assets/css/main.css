@@ -88,13 +88,20 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* Fix the bug that causes body go out of screen border and because of that horizontal scrolling. */
 /* https://stackoverflow.com/a/42798283/5184474 */
 html, body {
-  position: relative; }
+  position: relative;
+}
 
+/*
+body {
+    overflow: auto;
+}
+*/
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -107,63 +114,76 @@ hgroup,
 menu,
 nav,
 section {
-  display: block; }
+  display: block;
+}
 
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol,
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote,
 q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
-  content: none; }
+  content: "";
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .btn-call {
   max-width: 229px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12px 27px;
   background-color: #65DB30;
   border-radius: 6px;
-  font-size: 22px; }
+  font-size: 22px;
+}
 
 body {
-  font-family: "Helvetica Neue", "Arial"; }
+  font-family: "Helvetica Neue", "Arial";
+}
 
 .main {
   display: flex;
   flex-direction: column;
-  width: 100%; }
+  width: 100%;
+}
 
 .pointer {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .top {
   height: 864px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  background-image: url(../images/shutterstock.png); }
+  background-image: url(../images/shutterstock.png);
+}
 
 .top__cafe-header-desc {
   color: #ffffff;
-  font-size: 34px; }
+  font-size: 34px;
+}
 
 /*# sourceMappingURL=main.css.map */
