@@ -11,8 +11,27 @@ body {
     width: 100%;
 }
 
-.pointer {
-    cursor: pointer;
+.navbar-mobile {
+    display: none;
+}
+
+.navbar-desktop {
+    display: none;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background: #151515;
+    opacity: 0.8;
+}
+
+.navbar-desktop__navbar-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar-list__navbar-item {
+    color: $color-white;
 }
 
 .top {
@@ -27,4 +46,10 @@ body {
 .top__cafe-header-desc {
     color: $color-white;
     font-size: $font-34;
+}
+
+@media (min-width: 768px) {
+    .navbar-desktop {
+        display: block;
+    }
 }

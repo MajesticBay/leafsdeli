@@ -148,6 +148,10 @@ a {
   text-decoration: none;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .pv-12 {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -178,8 +182,27 @@ body {
   width: 100%;
 }
 
-.pointer {
-  cursor: pointer;
+.navbar-mobile {
+  display: none;
+}
+
+.navbar-desktop {
+  display: none;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background: #151515;
+  opacity: 0.8;
+}
+
+.navbar-desktop__navbar-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar-list__navbar-item {
+  color: #ffffff;
 }
 
 .top {
@@ -194,6 +217,12 @@ body {
 .top__cafe-header-desc {
   color: #ffffff;
   font-size: 34px;
+}
+
+@media (min-width: 768px) {
+  .navbar-desktop {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
