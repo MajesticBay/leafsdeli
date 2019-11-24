@@ -61,14 +61,14 @@ body {
 .top__wrapper {
   display: flex;
   flex-direction: column;
-  width: 552px;
+  width: 300px;
   justify-content: center;
   align-items: center;
 }
 
 .top__cafe-header-desc {
   color: #ffffff;
-  font-size: 34px;
+  font-size: 20px;
 }
 
 @media (min-width: 768px) {
@@ -78,6 +78,10 @@ body {
 
   .navbar-desktop {
     display: flex;
+  }
+
+  .top__wrapper {
+    width: 552px;
   }
 }
 
