@@ -9,13 +9,24 @@ body {
 }
 
 .navbar-mobile {
-  display: none;
   width: 100%;
   justify-content: center;
+  background-color: #151515;
+  opacity: 0.8;
+}
+
+.navbar-mobile__menu-opener {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
   position: fixed;
   z-index: 1;
-  background: #151515;
+  background-color: #151515;
   opacity: 0.8;
+}
+
+.navbar-mobile__navbar-list {
+  display: none;
 }
 
 .navbar-desktop {
@@ -24,7 +35,7 @@ body {
   justify-content: center;
   position: fixed;
   z-index: 1;
-  background: #151515;
+  background-color: #151515;
   opacity: 0.8;
 }
 
@@ -42,10 +53,17 @@ body {
 .top {
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url(../images/shutterstock.png);
+}
+
+.top__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 552px;
+  justify-content: center;
+  align-items: center;
 }
 
 .top__cafe-header-desc {
@@ -54,6 +72,10 @@ body {
 }
 
 @media (min-width: 768px) {
+  .navbar-mobile {
+    display: none;
+  }
+
   .navbar-desktop {
     display: flex;
   }

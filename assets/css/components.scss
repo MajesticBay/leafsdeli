@@ -4,7 +4,20 @@
     cursor: pointer;
 }
 
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
 // Padding
+.p-8 {
+    padding: 8px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
 .pv-12 {
     padding-top: 12px;
     padding-bottom: 12px;

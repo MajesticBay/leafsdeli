@@ -12,13 +12,26 @@ body {
 }
 
 .navbar-mobile {
-    display: none;
     width: 100%;
     justify-content: center;
+    // position: fixed;
+    // z-index: 1;
+    background-color: $color-black;
+    opacity: 0.8;
+}
+
+.navbar-mobile__menu-opener {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
     position: fixed;
     z-index: 1;
-    background: $color-black;
+    background-color: $color-black;
     opacity: 0.8;
+}
+
+.navbar-mobile__navbar-list {
+    display: none;
 }
 
 .navbar-desktop {
@@ -27,7 +40,7 @@ body {
     justify-content: center;
     position: fixed;
     z-index: 1;
-    background: #151515;
+    background-color: $color-black;
     opacity: 0.8;
 }
 
@@ -45,10 +58,19 @@ body {
 .top {
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url(../images/shutterstock.png);
+    // background-color: purple;
+}
+
+.top__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 552px;
+    justify-content: center;
+    align-items: center;
 }
 
 .top__cafe-header-desc {
@@ -57,6 +79,10 @@ body {
 }
 
 @media (min-width: 768px) {
+    .navbar-mobile {
+        display: none;
+    }
+
     .navbar-desktop {
         display: flex;
     }
