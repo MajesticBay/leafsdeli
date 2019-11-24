@@ -157,6 +157,11 @@ a {
   padding-bottom: 12px;
 }
 
+.pv-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .ph-27 {
   padding-left: 27px;
   padding-right: 27px;
@@ -184,11 +189,18 @@ body {
 
 .navbar-mobile {
   display: none;
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  background: #151515;
+  opacity: 0.8;
 }
 
 .navbar-desktop {
   display: none;
   width: 100%;
+  justify-content: center;
   position: fixed;
   z-index: 1;
   background: #151515;
@@ -198,6 +210,7 @@ body {
 .navbar-desktop__navbar-list {
   display: flex;
   width: 100%;
+  max-width: 1100px;
   justify-content: space-between;
 }
 
@@ -206,7 +219,7 @@ body {
 }
 
 .top {
-  height: 864px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -221,7 +234,7 @@ body {
 
 @media (min-width: 768px) {
   .navbar-desktop {
-    display: block;
+    display: flex;
   }
 }
 

@@ -13,11 +13,18 @@ body {
 
 .navbar-mobile {
     display: none;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    background: $color-black;
+    opacity: 0.8;
 }
 
 .navbar-desktop {
     display: none;
     width: 100%;
+    justify-content: center;
     position: fixed;
     z-index: 1;
     background: #151515;
@@ -27,6 +34,7 @@ body {
 .navbar-desktop__navbar-list {
     display: flex;
     width: 100%;
+    max-width: 1100px;
     justify-content: space-between;
 }
 
@@ -35,7 +43,7 @@ body {
 }
 
 .top {
-    height: 864px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,6 +58,6 @@ body {
 
 @media (min-width: 768px) {
     .navbar-desktop {
-        display: block;
+        display: flex;
     }
 }
