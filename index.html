@@ -8,48 +8,57 @@
     <title>Leaf Deli</title>
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <script src="assets/js/toggleMenu.js"></script>
 </head>
 
 <body>
     <div class="main">
-        <nav class="navbar-mobile">
-            <div class="navbar-mobile__menu-opener">
+        <nav class="navbar-mobile__menu-opener">
+            <img class="p-16" src="./assets/images/menu-hamburger.svg" onclick="openMenu()">
+        </nav>
+        <nav id="mobile-menu" class="navbar-mobile">
+            <div class="navbar-mobile__top">
                 <img class="p-16" src="./assets/images/menu-hamburger.svg">
             </div>
-            <ul class="navbar-mobile__navbar-list">
-                <li class="navbar-list__navbar-item">breakfast</li>
-                <li class="navbar-list__navbar-item">wraps</li>
-                <li class="navbar-list__navbar-item">salads</li>
-                <li class="navbar-list__navbar-item">soups</li>
-                <li class="navbar-list__navbar-item">sandwiches</li>
-                <li class="navbar-list__navbar-item">daily specials</li>
-                <li class="navbar-list__navbar-item">snacks</li>
-                <li class="navbar-list__navbar-item">espresso</li>
-                <li class="navbar-list__navbar-item">beverages</li>
+            <ul id="mobile-menu-list" class="navbar-mobile__navbar-list">
+                <li class="navbar-list__navbar-item pt-8">about us</li>
+                <li class="navbar-list__navbar-item pt-8">breakfast</li>
+                <li class="navbar-list__navbar-item pt-8">wraps</li>
+                <li class="navbar-list__navbar-item pt-8">salads</li>
+                <li class="navbar-list__navbar-item pt-8">soups</li>
+                <li class="navbar-list__navbar-item pt-8">sandwiches</li>
+                <li class="navbar-list__navbar-item pt-8">daily specials</li>
+                <li class="navbar-list__navbar-item pt-8">snacks</li>
+                <li class="navbar-list__navbar-item pt-8">espresso</li>
+                <li class="navbar-list__navbar-item pt-8">beverages</li>
             </ul>
         </nav>
         <nav class="navbar-desktop">
             <ul class="navbar-desktop__navbar-list">
-                <li class="navbar-list__navbar-item pv-20">breakfast</li>
-                <li class="navbar-list__navbar-item pv-20">wraps</li>
-                <li class="navbar-list__navbar-item pv-20">salads</li>
-                <li class="navbar-list__navbar-item pv-20">soups</li>
-                <li class="navbar-list__navbar-item pv-20">sandwiches</li>
-                <li class="navbar-list__navbar-item pv-20">daily specials</li>
-                <li class="navbar-list__navbar-item pv-20">snacks</li>
-                <li class="navbar-list__navbar-item pv-20">espresso</li>
-                <li class="navbar-list__navbar-item pv-20">beverages</li>
+                <li class="navbar-list__navbar-item pointer pv-20">breakfast</li>
+                <li class="navbar-list__navbar-item pointer pv-20">wraps</li>
+                <li class="navbar-list__navbar-item pointer pv-20">salads</li>
+                <li class="navbar-list__navbar-item pointer pv-20">soups</li>
+                <li class="navbar-list__navbar-item pointer pv-20">sandwiches</li>
+                <li class="navbar-list__navbar-item pointer pv-20">daily specials</li>
+                <li class="navbar-list__navbar-item pointer pv-20">snacks</li>
+                <li class="navbar-list__navbar-item pointer pv-20">espresso</li>
+                <li class="navbar-list__navbar-item pointer pv-20">beverages</li>
             </ul>
         </nav>
         <div class="top">
             <div class="top__wrapper">
-                <div class="btn-call pv-12 ph-27 pointer">
+                <div class="btn-call btn-call--top pv-12 ph-27 pointer">
                     <img src="./assets/images/phone-logo.svg">
                     <span>make an order</span>
                 </div>
-                <img class="img-fluid" src="./assets/images/logo.svg">
-                <span class="top__cafe-header-desc">Cafe gourmet home cooking — </span>
-                <span class="top__cafe-header-desc">fresh and natural</span>
+                <div class="top__center-container">
+                    <img class="img-fluid" src="./assets/images/logo.svg">
+                    <div class="top__cafe-header-desc">
+                        <span>Cafe gourmet home cooking — </span>
+                        <span>fresh and natural</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
