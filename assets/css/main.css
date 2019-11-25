@@ -302,6 +302,8 @@ body {
 .top__cafe-header-desc {
   display: flex;
   flex-direction: column;
+  padding-top: 16px;
+  line-height: 120%;
   text-align: center;
   color: #ffffff;
   font-size: 20px;
@@ -323,11 +325,21 @@ body {
 
 .about-us__desc-container {
   grid-row: 1/2;
+  padding: 16px;
+}
+
+.about-us__desc-content {
+  line-height: 150%;
 }
 
 .about-us__header {
   font-size: 44px;
   margin-bottom: 40px;
+  line-height: 120%;
+}
+
+.about-us__top-paragraph {
+  padding-bottom: 8px;
 }
 
 .footer {
@@ -363,6 +375,7 @@ body {
 
   .top__cafe-header-desc {
     font-size: 34px;
+    padding-top: 44px;
   }
 
   .about-us {
@@ -377,7 +390,11 @@ body {
   .about-us__desc-container {
     grid-column-start: 2;
     grid-column-end: 3;
-    padding: 100px;
+    padding: 100px 100px 0 100px;
+  }
+
+  .about-us__top-paragraph {
+    padding-bottom: 20px;
   }
 }
 
