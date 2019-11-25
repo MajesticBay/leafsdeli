@@ -342,6 +342,11 @@ body {
   padding-bottom: 8px;
 }
 
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
 .footer {
   display: flex;
   justify-content: center;
