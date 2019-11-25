@@ -184,12 +184,20 @@ a {
   padding-top: 8px;
 }
 
+.pt-12 {
+  padding-top: 12px;
+}
+
 .pt-40 {
   padding-top: 40px;
 }
 
 .pt-185 {
   padding-top: 185px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
 }
 
 .btn-call {
@@ -290,6 +298,10 @@ body {
   bottom: 90px;
 }
 
+.btn-call--footer {
+  color: #151515;
+}
+
 .top__cafe-header-desc {
   display: flex;
   flex-direction: column;
@@ -314,6 +326,25 @@ body {
 
 .about-us__desc-container {
   grid-row: 1/2;
+}
+
+.about-us__header {
+  font-size: 44px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #151515;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer__footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 229px;
 }
 
 @media (min-width: 768px) {
@@ -349,6 +380,7 @@ body {
   .about-us__desc-container {
     grid-column-start: 2;
     grid-column-end: 3;
+    padding: 100px;
   }
 }
 
