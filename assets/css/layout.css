@@ -86,10 +86,6 @@ body {
   bottom: 90px;
 }
 
-.btn-call--footer {
-  color: #151515;
-}
-
 .top__cafe-header-desc {
   display: flex;
   flex-direction: column;

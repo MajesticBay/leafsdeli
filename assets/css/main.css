@@ -206,6 +206,7 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #65DB30;
+  color: #151515;
   border-radius: 6px;
   font-size: 22px;
 }
@@ -296,10 +297,6 @@ body {
 .btn-call--top {
   position: absolute;
   bottom: 90px;
-}
-
-.btn-call--footer {
-  color: #151515;
 }
 
 .top__cafe-header-desc {
