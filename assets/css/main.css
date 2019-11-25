@@ -273,6 +273,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   background-image: url(../images/shutterstock.png);
 }
 
@@ -297,6 +298,24 @@ body {
   font-size: 20px;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.about-us__img-container {
+  grid-row: 2/3;
+}
+
+.about-us__desc-container {
+  grid-row: 1/2;
+}
+
 @media (min-width: 768px) {
   .navbar-mobile__menu-opener {
     display: none;
@@ -316,6 +335,20 @@ body {
 
   .top__cafe-header-desc {
     font-size: 34px;
+  }
+
+  .about-us {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-us__img-container {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .about-us__desc-container {
+    grid-column-start: 2;
+    grid-column-end: 3;
   }
 }
 
