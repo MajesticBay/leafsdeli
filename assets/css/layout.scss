@@ -143,6 +143,26 @@ body {
     justify-content: center;
 }
 
+.menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 16px;
+}
+
+.menu-section__header {
+    // font-family: Noto Sans;
+    font-size: $font-44;
+    line-height: 120%;
+    padding-bottom: 30px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -204,5 +224,14 @@ body {
 
     .about-us__top-paragraph {
         padding-bottom: 20px;
+    }
+
+    .menu-wrapper {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .menu-section__header {
+        padding-bottom: 63px;
     }
 }
