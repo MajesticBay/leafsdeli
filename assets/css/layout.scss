@@ -11,6 +11,7 @@ body {
     width: 100%;
 }
 
+// NAVBAR
 .navbar-mobile__menu-opener {
     display: flex;
     justify-content: flex-end;
@@ -71,6 +72,7 @@ body {
     color: $color-white;
 }
 
+// TOP
 .top {
     height: 100vh;
     display: flex;
@@ -110,6 +112,7 @@ body {
     flex-direction: column;
 }
 
+// ABOUTS US
 .about-us {
     display: grid;
     grid-template-columns: 1fr;
@@ -138,6 +141,7 @@ body {
     padding-bottom: 8px;
 }
 
+// MENU
 .menu {
     display: flex;
     justify-content: center;
@@ -163,6 +167,7 @@ body {
     padding-bottom: 30px;
 }
 
+// FOOTER
 .footer {
     display: flex;
     justify-content: center;
@@ -178,7 +183,7 @@ body {
 }
 
 @media (min-width: 768px) {
-    // navbar
+    // NAVBAR
     .navbar-mobile__menu-opener {
         display: none;
     }
@@ -191,13 +196,9 @@ body {
         display: flex;
     }
 
-    // top
+    // TOP
     .top__wrapper {
         width: 552px;
-    }
-
-    .btn-call--top {
-        // margin-bottom: 185px;
     }
 
     .top__cafe-header-desc {
@@ -205,7 +206,7 @@ body {
         padding-top: 44px;
     }
 
-    // about us
+    // ABOUT US
     .about-us {
         grid-template-columns: 1fr 1fr;
     }
@@ -226,6 +227,7 @@ body {
         padding-bottom: 20px;
     }
 
+    // MENU
     .menu-wrapper {
         flex-direction: row;
         justify-content: center;
