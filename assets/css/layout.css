@@ -150,7 +150,8 @@ body {
 .menu-section__header {
   font-size: 44px;
   line-height: 120%;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #65DB30;
 }
 
 .menu {
@@ -244,7 +245,7 @@ body {
   }
 
   .menu-section__header {
-    padding-bottom: 63px;
+    margin-bottom: 63px;
   }
 
   .map-wrapper {

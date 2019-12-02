@@ -214,12 +214,25 @@ a {
 .dish-card {
   display: flex;
   flex-direction: column;
+  width: 100%;
   margin-bottom: 34px;
 }
 
 .dish-card__header {
   display: flex;
   font-size: 22px;
+}
+
+.dish-card__title {
+  white-space: nowrap;
+}
+
+.dish-card__dotted-line {
+  width: 100%;
+  border-top: 1px dashed black;
+  height: 1px;
+  margin: 0;
+  margin: auto 5px 0 5px;
 }
 
 .dish-card__ingredients {
@@ -378,7 +391,8 @@ body {
 .menu-section__header {
   font-size: 44px;
   line-height: 120%;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #65DB30;
 }
 
 .menu {
@@ -472,7 +486,7 @@ body {
   }
 
   .menu-section__header {
-    padding-bottom: 63px;
+    margin-bottom: 63px;
   }
 
   .map-wrapper {
