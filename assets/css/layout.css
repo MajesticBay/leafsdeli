@@ -121,7 +121,7 @@ body {
 
 .about-us__header {
   font-size: 44px;
-  margin-bottom: 40px;
+  padding-bottom: 30px;
   line-height: 120%;
 }
 
@@ -151,6 +151,35 @@ body {
   font-size: 44px;
   line-height: 120%;
   padding-bottom: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+.map-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.map-wrapper__header {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 30px;
+  font-size: 44px;
 }
 
 .footer {
@@ -215,6 +244,10 @@ body {
 
   .menu-section__header {
     padding-bottom: 63px;
+  }
+
+  .map-wrapper {
+    width: 75%;
   }
 }
 

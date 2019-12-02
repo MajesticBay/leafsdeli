@@ -133,7 +133,7 @@ body {
 
 .about-us__header {
     font-size: $font-44;
-    margin-bottom: 40px;
+    padding-bottom: 30px;
     line-height: 120%;
 }
 
@@ -165,6 +165,36 @@ body {
     font-size: $font-44;
     line-height: 120%;
     padding-bottom: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.map-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1300px;
+    // padding: 16px;
+}
+
+.map-wrapper__header {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 30px;
+    font-size: $font-44;
 }
 
 // FOOTER
@@ -235,5 +265,9 @@ body {
 
     .menu-section__header {
         padding-bottom: 63px;
+    }
+
+    .map-wrapper {
+        width: 75%;
     }
 }
