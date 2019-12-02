@@ -187,7 +187,7 @@ body {
     flex-direction: column;
     width: 100%;
     max-width: 1300px;
-    // padding: 16px;
+    padding-bottom: 16px;
 }
 
 .map-wrapper__header {
@@ -269,5 +269,6 @@ body {
 
     .map-wrapper {
         width: 75%;
+        padding-bottom: 100px;
     }
 }
