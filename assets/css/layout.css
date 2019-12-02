@@ -228,16 +228,17 @@ body {
     padding-bottom: 20px;
   }
 
-  .menu-wrapper {
-    grid-template-columns: 440px 440px;
-  }
-
   .menu-section__header {
     margin-bottom: 63px;
   }
 
   .map-wrapper {
     width: 75%;
+  }
+}
+@media (min-width: 900px) {
+  .menu-wrapper {
+    grid-template-columns: 440px 440px;
   }
 }
 

@@ -157,6 +157,14 @@ a {
   height: auto;
 }
 
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.text-wrap {
+  white-space: wrap;
+}
+
 .p-8 {
   padding: 8px;
 }
@@ -224,10 +232,6 @@ a {
   font-size: 22px;
 }
 
-.dish-card__title {
-  white-space: nowrap;
-}
-
 .dish-card__dotted-line {
   width: 100%;
   border-top: 1px dashed black;
@@ -240,6 +244,11 @@ a {
   font-size: 14px;
 }
 
+@media (min-width: 768px) {
+  .dish-card__title {
+    white-space: nowrap;
+  }
+}
 body {
   font-family: "Helvetica Neue", "Arial";
 }
@@ -470,16 +479,17 @@ body {
     padding-bottom: 20px;
   }
 
-  .menu-wrapper {
-    grid-template-columns: 440px 440px;
-  }
-
   .menu-section__header {
     margin-bottom: 63px;
   }
 
   .map-wrapper {
     width: 75%;
+  }
+}
+@media (min-width: 900px) {
+  .menu-wrapper {
+    grid-template-columns: 440px 440px;
   }
 }
 

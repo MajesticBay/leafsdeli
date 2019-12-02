@@ -9,6 +9,14 @@
     height: auto;
 }
 
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.text-wrap {
+    white-space: wrap;
+}
+
 // Padding
 .p-8 {
     padding: 8px;
@@ -77,9 +85,7 @@
     font-size: $font-22;
 }
 
-.dish-card__title {
-    white-space: nowrap;
-}
+
 
 .dish-card__dotted-line {
     width: 100%;
@@ -91,4 +97,10 @@
 
 .dish-card__ingredients {
     font-size: $font-14;
+}
+
+@media (min-width: 768px) {
+    .dish-card__title {
+        white-space: nowrap;
+    }
 }
