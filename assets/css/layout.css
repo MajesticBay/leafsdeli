@@ -163,7 +163,7 @@ body {
   flex-direction: column;
   width: 100%;
   max-width: 1300px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
 }
 
 .map-wrapper__header {
@@ -171,6 +171,11 @@ body {
   padding-right: 16px;
   padding-bottom: 30px;
   font-size: 44px;
+}
+
+.map-wrapper__google-map-container {
+  width: 100%;
+  height: 400px;
 }
 
 .footer {
@@ -234,6 +239,11 @@ body {
 
   .map-wrapper {
     width: 75%;
+    padding-bottom: 60px;
+  }
+
+  .map-wrapper__google-map-container {
+    height: 650px;
   }
 }
 @media (min-width: 900px) {
