@@ -376,9 +376,8 @@ body {
 }
 
 .menu-wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .menu-section {
@@ -392,17 +391,7 @@ body {
   font-size: 44px;
   line-height: 120%;
   margin-bottom: 30px;
-  border-bottom: 1px solid #65DB30;
-}
-
-.menu {
-  display: flex;
-  justify-content: center;
-}
-
-.menu-wrapper {
-  display: flex;
-  flex-direction: column;
+  border-bottom: 2px solid #65DB30;
 }
 
 .map {
@@ -481,8 +470,7 @@ body {
   }
 
   .menu-wrapper {
-    flex-direction: row;
-    justify-content: center;
+    grid-template-columns: minmax(min-content, 440px) minmax(min-content, 440px);
   }
 
   .menu-section__header {
@@ -491,7 +479,6 @@ body {
 
   .map-wrapper {
     width: 75%;
-    padding-bottom: 100px;
   }
 }
 
