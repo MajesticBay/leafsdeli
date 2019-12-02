@@ -208,6 +208,7 @@ body {
 }
 
 @media (min-width: 768px) {
+
     // NAVBAR
     .navbar-mobile__menu-opener {
         display: none;
@@ -257,7 +258,8 @@ body {
         // flex-direction: row;
         // justify-content: center;
         // width: 75%;
-        grid-template-columns: minmax(min-content, 440px) minmax(min-content, 440px);
+        // grid-template-columns: minmax(min-content, 440px) minmax(min-content, 440px);
+        grid-template-columns: 440px 440px;
         // grid-gap: 200px;
         // row-gap: 200px;
         // padding-bottom: 100px;

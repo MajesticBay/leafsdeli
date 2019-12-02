@@ -220,6 +220,7 @@ a {
 
 .dish-card__header {
   display: flex;
+  align-items: flex-end;
   font-size: 22px;
 }
 
@@ -470,7 +471,7 @@ body {
   }
 
   .menu-wrapper {
-    grid-template-columns: minmax(min-content, 440px) minmax(min-content, 440px);
+    grid-template-columns: 440px 440px;
   }
 
   .menu-section__header {
