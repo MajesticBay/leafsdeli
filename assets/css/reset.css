@@ -95,6 +95,11 @@ video {
 html, body {
   position: relative; }
 
+/*
+body {
+    overflow: auto;
+}
+*/
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
