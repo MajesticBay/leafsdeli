@@ -81,10 +81,25 @@
     flex-direction: column;
     width: 100%;
     margin-bottom: 34px;
+    // padding: 6px;
 }
 
 .dish-card--new {
     border: 1px solid $color-green;
+    position: relative;
+}
+
+.dish-card--new__new-label {
+    position: absolute;
+    top: 10px;
+    left: -27px;
+    background-color: $color-green;
+    color: $color-white;
+    transform: rotate(270deg);
+}
+
+.new-label__text {
+    padding: 1px 4px;
 }
 
 .dish-card__header {

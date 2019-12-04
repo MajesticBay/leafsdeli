@@ -205,7 +205,19 @@ a {
   margin-bottom: 34px; }
 
 .dish-card--new {
-  border: 1px solid #65DB30; }
+  border: 1px solid #65DB30;
+  position: relative; }
+
+.dish-card--new__new-label {
+  position: absolute;
+  top: 10px;
+  left: -27px;
+  background-color: #65DB30;
+  color: #ffffff;
+  transform: rotate(270deg); }
+
+.new-label__text {
+  padding: 1px 4px; }
 
 .dish-card__header {
   display: flex;
