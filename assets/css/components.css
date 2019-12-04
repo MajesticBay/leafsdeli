@@ -29,6 +29,9 @@
   padding-left: 27px;
   padding-right: 27px; }
 
+.pt-6 {
+  padding-top: 6px; }
+
 .pt-8 {
   padding-top: 8px; }
 
@@ -60,6 +63,9 @@
   width: 100%;
   margin-bottom: 34px; }
 
+.dish-card--new {
+  border: 1px solid #65DB30; }
+
 .dish-card__header {
   display: flex;
   align-items: flex-end;
@@ -81,6 +87,14 @@
   height: auto;
   max-height: 100%;
   border-radius: 6px; }
+
+.dish-card__soup-body {
+  display: flex;
+  justify-content: space-between; }
+
+.dish-card__soup-column {
+  display: flex;
+  flex-direction: column; }
 
 @media (min-width: 768px) {
   .dish-card__title {
