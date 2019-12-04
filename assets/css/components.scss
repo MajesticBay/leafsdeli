@@ -85,8 +85,6 @@
     font-size: $font-22;
 }
 
-
-
 .dish-card__dotted-line {
     width: 100%;
     border-top: 1px dashed black;
@@ -97,6 +95,14 @@
 
 .dish-card__ingredients {
     font-size: $font-14;
+}
+
+.dish-card__image {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    border-radius: 6px;
 }
 
 @media (min-width: 768px) {
