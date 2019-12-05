@@ -224,6 +224,9 @@ a {
   align-items: flex-end;
   font-size: 22px; }
 
+.dish-card__title {
+  white-space: nowrap; }
+
 .dish-card__dotted-line {
   width: 100%;
   border-top: 1px dashed black;
@@ -249,9 +252,6 @@ a {
   display: flex;
   flex-direction: column; }
 
-@media (min-width: 768px) {
-  .dish-card__title {
-    white-space: nowrap; } }
 body {
   font-family: "Helvetica Neue", "Arial"; }
 
@@ -459,6 +459,6 @@ body {
     height: 650px; } }
 @media (min-width: 900px) {
   .menu-wrapper {
-    grid-template-columns: 440px 440px; } }
+    grid-template-columns: 480px 480px; } }
 
 /*# sourceMappingURL=main.css.map */

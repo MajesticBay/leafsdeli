@@ -108,6 +108,10 @@
     font-size: $font-22;
 }
 
+.dish-card__title {
+    white-space: nowrap;
+}
+
 .dish-card__dotted-line {
     width: 100%;
     border-top: 1px dashed black;
@@ -139,7 +143,7 @@
 }
 
 @media (min-width: 768px) {
-    .dish-card__title {
-        white-space: nowrap;
-    }
+    // .dish-card__title {
+    //     white-space: nowrap;
+    // }
 }

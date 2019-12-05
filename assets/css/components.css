@@ -83,6 +83,9 @@
   align-items: flex-end;
   font-size: 22px; }
 
+.dish-card__title {
+  white-space: nowrap; }
+
 .dish-card__dotted-line {
   width: 100%;
   border-top: 1px dashed black;
@@ -107,9 +110,5 @@
 .dish-card__soup-column {
   display: flex;
   flex-direction: column; }
-
-@media (min-width: 768px) {
-  .dish-card__title {
-    white-space: nowrap; } }
 
 /*# sourceMappingURL=components.css.map */

@@ -205,6 +205,6 @@ body {
     height: 650px; } }
 @media (min-width: 900px) {
   .menu-wrapper {
-    grid-template-columns: 440px 440px; } }
+    grid-template-columns: 480px 480px; } }
 
 /*# sourceMappingURL=layout.css.map */
