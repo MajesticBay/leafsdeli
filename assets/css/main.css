@@ -235,9 +235,6 @@ a {
   align-items: flex-end;
   font-size: 22px; }
 
-.dish-card__title {
-  white-space: nowrap; }
-
 .dish-card__dotted-line {
   width: 100%;
   border-top: 1px dashed black;
