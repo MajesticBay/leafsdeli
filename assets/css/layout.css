@@ -56,11 +56,12 @@ body {
   color: #ffffff; }
 
 .top {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  height: 100vh;
+  max-height: 864px;
   background-image: url(../images/shutterstock.png); }
 
 .top__wrapper {
@@ -72,7 +73,7 @@ body {
 
 .btn-call--top {
   position: absolute;
-  bottom: 90px; }
+  bottom: 110px; }
 
 .top__cafe-header-desc {
   display: flex;
@@ -126,8 +127,11 @@ body {
 .menu-section__header {
   font-size: 44px;
   line-height: 120%;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   border-bottom: 2px solid #65DB30; }
+
+.menu-section__plain-text {
+  margin-left: 16px; }
 
 .map {
   display: flex;
@@ -194,8 +198,14 @@ body {
   .about-us__top-paragraph {
     padding-bottom: 20px; }
 
+  .menu-wrapper {
+    row-gap: 90px; }
+
+  .menu-section {
+    padding: 0; }
+
   .menu-section__header {
-    margin-bottom: 63px; }
+    margin-bottom: 50px; }
 
   .map-wrapper {
     width: 75%;
@@ -205,6 +215,15 @@ body {
     height: 650px; } }
 @media (min-width: 900px) {
   .menu-wrapper {
-    grid-template-columns: 480px 480px; } }
+    grid-template-columns: 400px 400px;
+    row-gap: 100px;
+    column-gap: 25px; }
+
+  .menu-section__header {
+    margin-left: 16px; } }
+@media (min-width: 1200px) {
+  .menu-wrapper {
+    grid-template-columns: 480px 480px;
+    column-gap: 100px; } }
 
 /*# sourceMappingURL=layout.css.map */
