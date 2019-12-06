@@ -14,7 +14,11 @@
 }
 
 .text-wrap {
-    white-space: wrap;
+    white-space: normal;
+}
+
+.text-wrap--important {
+    white-space: normal !important;
 }
 
 // Padding
@@ -81,12 +85,12 @@
     flex-direction: column;
     width: 100%;
     margin-bottom: 34px;
-    // padding: 6px;
 }
 
 .dish-card--new {
     border: 1px solid $color-green;
     position: relative;
+    padding: 16px;
 }
 
 .dish-card--new__new-label {

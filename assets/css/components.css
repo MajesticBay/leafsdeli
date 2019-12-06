@@ -9,7 +9,10 @@
   white-space: nowrap; }
 
 .text-wrap {
-  white-space: wrap; }
+  white-space: normal; }
+
+.text-wrap--important {
+  white-space: normal !important; }
 
 .p-8 {
   padding: 8px; }
@@ -65,7 +68,8 @@
 
 .dish-card--new {
   border: 1px solid #65DB30;
-  position: relative; }
+  position: relative;
+  padding: 16px; }
 
 .dish-card--new__new-label {
   position: absolute;
