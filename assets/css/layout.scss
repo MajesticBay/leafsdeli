@@ -93,11 +93,6 @@ body {
     align-items: center;
 }
 
-.btn-call--top {
-    position: absolute;
-    bottom: 110px;
-}
-
 .top__cafe-header-desc {
     display: flex;
     flex-direction: column;
@@ -113,7 +108,7 @@ body {
     flex-direction: column;
 }
 
-// ABOUTS US
+// ABOUT US
 .about-us {
     display: grid;
     grid-template-columns: 1fr;
@@ -121,6 +116,20 @@ body {
 
 .about-us__img-container {
     grid-row: 2 / 3;
+    // display: grid;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.about-us__img-inner-container {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.about-us__img {
+    height: 400px;
 }
 
 .about-us__desc-container {
@@ -251,6 +260,7 @@ body {
         grid-column: 1 / 2;
         // grid-row-start: 1;
         grid-row: 1 / 2;
+        justify-content: flex-end;
     }
 
     .about-us__desc-container {
@@ -271,7 +281,6 @@ body {
     .menu-section {
         padding: 0;
     }
-    
 
     .menu-section__header {
         margin-bottom: 50px;

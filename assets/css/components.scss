@@ -84,12 +84,21 @@
     font-size: $font-22;
 }
 
+.btn-call--top {
+    position: absolute;
+    top: 110px;
+}
+
 .dish-card {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-bottom: 20px;
     // padding: 16px;
+}
+
+.dish-card--last-in-section {
+    margin-bottom: 0;
 }
 
 .dish-card--new {
