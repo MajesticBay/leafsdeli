@@ -244,6 +244,27 @@ a {
   top: 110px;
 }
 
+.cross {
+  position: relative;
+}
+
+.cross__line {
+  width: 20px;
+  height: 4px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.cross__top {
+  position: absolute;
+  transform: rotate(135deg);
+}
+
+.cross__bottom {
+  position: absolute;
+  transform: rotate(230deg);
+}
+
 .dish-card {
   display: flex;
   flex-direction: column;

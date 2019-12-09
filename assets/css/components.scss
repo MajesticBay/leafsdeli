@@ -89,6 +89,29 @@
     top: 110px;
 }
 
+// CROSS
+.cross {
+    position: relative;
+}
+
+.cross__line {
+    width: 20px;
+    height: 4px;
+    background-color: $color-white;
+    border-radius: 2px;
+}
+
+.cross__top {
+    position: absolute;
+    transform: rotate(135deg);
+}
+
+.cross__bottom {
+    position: absolute;
+    transform: rotate(230deg);
+}
+
+// DISH CARD
 .dish-card {
     display: flex;
     flex-direction: column;
