@@ -557,6 +557,11 @@ body {
   width: 229px;
 }
 
+.footer__logo {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
 @media (min-width: 768px) {
   .navbar-mobile__menu-opener {
     display: none;

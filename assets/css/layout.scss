@@ -228,6 +228,11 @@ body {
     width: 229px;
 }
 
+.footer__logo {
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
 @media (min-width: 768px) {
 
     // NAVBAR
@@ -319,7 +324,6 @@ body {
     .menu-section__header {
         margin-left: 16px;
     }
-    
 }
 
 @media (min-width: 1200px) {
