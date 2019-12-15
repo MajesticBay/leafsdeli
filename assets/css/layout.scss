@@ -268,12 +268,22 @@ body {
         // grid-row-start: 1;
         grid-row: 1 / 2;
         justify-content: flex-end;
+        // padding: 100px 100px 0 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
     }
 
     .about-us__desc-container {
         grid-column-start: 2;
         grid-column-end: 3;
-        padding: 100px 100px 0 100px;
+        // padding: 100px 100px 0 100px;
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .about-us__top-paragraph {

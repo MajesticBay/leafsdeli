@@ -84,7 +84,13 @@
                 </div>
                 <div class="about-us__img-container">
                     <!-- <div class="about-us__img-inner-container"> -->
-                    <img class="about-us__img" src="assets/images/photoshoot/front.JPG">
+                    <img class="about-us__img"
+                        srcset="assets/images/photoshoot/front-320w.JPG 320w,
+                                assets/images/photoshoot/front-768w.JPG 768w"
+                        sizes="(max-width: 320px) 280px,
+                                (max-width: 768px) 728px,
+                                800px"
+                        src="assets/images/photoshoot/front.JPG">
                     <!-- </div> -->
                 </div>
             </div>
