@@ -12,6 +12,9 @@
     <script src="assets/js/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDF76B6okoa7LQRJ_IPORKnuQwxWKwcdkU&callback=initMap"
         async defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -42,15 +45,33 @@
         </nav>
         <nav class="navbar-desktop">
             <ul class="navbar-desktop__navbar-list">
-                <li class="navbar-list__navbar-item pointer pv-20">breakfast</li>
-                <li class="navbar-list__navbar-item pointer pv-20">wraps</li>
-                <li class="navbar-list__navbar-item pointer pv-20">salads</li>
-                <li class="navbar-list__navbar-item pointer pv-20">soups</li>
-                <li class="navbar-list__navbar-item pointer pv-20">sandwiches</li>
-                <li class="navbar-list__navbar-item pointer pv-20">daily specials</li>
-                <li class="navbar-list__navbar-item pointer pv-20">snacks</li>
-                <li class="navbar-list__navbar-item pointer pv-20">espresso</li>
-                <li class="navbar-list__navbar-item pointer pv-20">beverages</li>
+                <a href="#breakfast">
+                    <li class="navbar-list__navbar-item pointer pv-20">breakfast</li>
+                </a>
+                <a href="#wraps">
+                    <li class="navbar-list__navbar-item pointer pv-20">wraps</li>
+                </a>
+                <a href="#salads">
+                    <li class="navbar-list__navbar-item pointer pv-20">salads</li>
+                </a>
+                <a href="#soups">
+                    <li class="navbar-list__navbar-item pointer pv-20">soups</li>
+                </a>
+                <a href="#sandwiches">
+                    <li class="navbar-list__navbar-item pointer pv-20">sandwiches</li>
+                </a>
+                <a href="#daily-specials">
+                    <li class="navbar-list__navbar-item pointer pv-20">daily specials</li>
+                </a>
+                <a href="#snacks">
+                    <li class="navbar-list__navbar-item pointer pv-20">snacks</li>
+                </a>
+                <a href="#espresso">
+                    <li class="navbar-list__navbar-item pointer pv-20">espresso</li>
+                </a>
+                <a href="#beverages">
+                    <li class="navbar-list__navbar-item pointer pv-20">beverages</li>
+                </a>
             </ul>
         </nav>
         <div class="top">
@@ -96,7 +117,7 @@
             </div>
             <div class="menu">
                 <div class="menu-wrapper">
-                    <section class="menu-section">
+                    <section id="breakfast" class="menu-section">
                         <h1 class="menu-section__header">Breakfast</h1>
                         <p class="menu-section__plain-text">All breakfast served with egg and cheese and choice of meat:
                             Bacon or Ham or Sausage</p>
@@ -136,7 +157,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="menu-section">
+                    <section id="wraps" class="menu-section">
                         <h1 class="menu-section__header">Wraps</h1>
                         <div class="dish-card">
                             <div class="dish-card__header">
@@ -153,7 +174,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="menu-section">
+                    <section id="salads" class="menu-section">
                         <h1 class="menu-section__header">Salads</h1>
                         <div class="dish-card">
                             <div class="dish-card__header">
@@ -230,13 +251,13 @@
                             <img class="dish-card__image pt-12"
                                 src="./assets/images/photoshoot/grilled-chicken-salad.JPG">
                         </div>
-                        <p class="menu-section__plain-text">("served with iceberg lettuce, tomato, cheese. egg, onion,
+                        <p class="menu-section__plain-text pt-6">("served with iceberg lettuce, tomato, cheese. egg, onion,
                             crouton, sunflower seeds,
                             cucumber, black olives)</p>
                         <p class="menu-section__plain-text">Dressings: Ranch, Italian, 1000 Island. Bleu Cheese,
                             Balsamic Vinegar, Honey Mustard</p>
                     </section>
-                    <section class="menu-section">
+                    <section id="soups" class="menu-section">
                         <h1 class="menu-section__header">Soups</h1>
                         <div class="dish-card">
                             <div class="dish-card__header">
@@ -346,7 +367,7 @@
                             <img class="dish-card__image pt-12" src="./assets/images/photoshoot/chili-soup.JPG">
                         </div>
                     </section>
-                    <section class="menu-section">
+                    <section id="sandwiches" class="menu-section">
                         <h1 class="menu-section__header">Sandwiches</h1>
                         <p class="menu-section__plain-text pt-6">Breads: 9 grain, wheat. white, honey S wheat, rye. sour
                             dough, croissant hoagie roll - add
@@ -535,7 +556,7 @@
                                 cheese with thousand island dresssing</span>
                         </div>
                     </section>
-                    <section class="menu-section">
+                    <section id="daily-specials" class="menu-section">
                         <h1 class="menu-section__header">Daily Specials</h1>
                         <div class="dish-card">
                             <div class="dish-card__header">
@@ -586,7 +607,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="menu-section">
+                    <section id="snacks" class="menu-section">
                         <h1 class="menu-section__header">Snacks</h1>
                         <div class="dish-card">
                             <div class="dish-card__header">
@@ -639,7 +660,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="menu-section">
+                    <section id="espresso" class="menu-section">
                         <h1 class="menu-section__header">Espresso</h1>
                         <div class="dish-card">
                             <div class="dish-card__header">
@@ -682,7 +703,7 @@
                         <p class="menu-section__plain-text">Flavors: white chocolate, hazelnut, raspberry, caramel,
                             vanilla, coconut</p>
                     </section>
-                    <section class="menu-section">
+                    <section id="beverages" class="menu-section">
                         <h1 class="menu-section__header">Beverages</h1>
                         <div class="dish-card">
                             <div class="dish-card__header">
