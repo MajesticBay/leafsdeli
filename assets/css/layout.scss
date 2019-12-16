@@ -12,6 +12,13 @@ body {
 }
 
 // NAVBAR
+#nav-link.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
 .navbar-mobile__menu-opener {
     display: flex;
     justify-content: flex-end;
@@ -20,6 +27,7 @@ body {
     z-index: 1;
     background-color: $color-black;
     opacity: 0.8;
+    top: 0;
 }
 
 .navbar-mobile {
@@ -34,6 +42,7 @@ body {
     z-index: 1;
     background-color: $color-black;
     opacity: 0.9;
+    top: 0;
 }
 
 .navbar-mobile__top {
@@ -61,6 +70,7 @@ body {
     z-index: 1;
     background-color: $color-black;
     opacity: 0.8;
+    top: 0;
 }
 
 .navbar-desktop__navbar-list {
@@ -132,7 +142,7 @@ body {
 
 .about-us__img {
     width: 100%;
-    height: 400px;
+    // height: 400px;
 }
 
 .about-us__desc-container {
@@ -174,6 +184,8 @@ body {
     flex-direction: column;
     align-items: baseline;
     padding: 20px;
+    padding-top: 55px;
+    margin-top: -55px;
 }
 
 .menu-section__header {
@@ -279,7 +291,7 @@ body {
     }
 
     .about-us__img {
-        width: auto;
+        // width: auto;
     }
 
     .about-us__desc-container {
@@ -300,10 +312,13 @@ body {
     // MENU
     .menu-wrapper {
         row-gap: 90px;
+        // grid-template-rows: repeat(auto-fill, minmax(640px, 1fr));
     }
 
     .menu-section {
-        padding: 0;
+        // padding: 0;
+        // padding-top: 55px;
+        // margin-top: -55px;
     }
 
     .menu-section__header {
