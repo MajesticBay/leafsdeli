@@ -122,6 +122,7 @@ body {
 
 .about-us__img {
   width: 100%;
+  height: auto;
 }
 
 .about-us__desc-container {
