@@ -519,6 +519,7 @@ body {
   flex-direction: column;
   align-items: baseline;
   padding: 20px;
+  color: inherit;
 }
 
 .menu-section__header {
