@@ -125,6 +125,7 @@ body {
 .about-us__img {
   width: 100%;
   height: auto;
+  max-height: 376px;
 }
 
 .about-us__desc-container {
@@ -257,6 +258,10 @@ body {
     justify-content: center;
     align-items: center;
     padding: 50px;
+  }
+
+  .about-us__img {
+    max-height: none;
   }
 
   .about-us__desc-container {
