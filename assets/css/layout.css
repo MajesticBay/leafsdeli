@@ -105,6 +105,8 @@ body {
 .about-us {
   display: grid;
   grid-template-columns: 1fr;
+  padding-top: 55px;
+  margin-top: -55px;
 }
 
 .about-us__img-container {
