@@ -1,0 +1,199 @@
+@import 'placeholders';
+
+.pointer {
+    cursor: pointer;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.text-wrap {
+    white-space: normal;
+}
+
+.text-wrap--important {
+    white-space: normal !important;
+}
+
+// Padding
+.p-8 {
+    padding: 8px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.pv-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.pv-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ph-27 {
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.pt-6 {
+    padding-top: 6px;
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
+
+.pt-8 {
+    padding-top: 8px;
+}
+
+.pt-12 {
+    padding-top: 12px;
+}
+
+.pt-34 {
+    padding-top: 34px;
+}
+
+.pt-185 {
+    padding-top: 185px;
+}
+
+.pb-44 {
+    padding-bottom: 44px;
+}
+
+.btn-call {
+    max-width: 229px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-green;
+    color: $color-black;
+    border-radius: $border-rounded;
+    font-size: $font-22;
+}
+
+.btn-call--top {
+    position: absolute;
+    top: 110px;
+}
+
+// CROSS
+.cross {
+    position: relative;
+    top: 8px;
+    right: 20px;
+    width: 20px;
+    padding: 16px;
+}
+
+.cross__line {
+    width: 20px;
+    height: 4px;
+    background-color: $color-white;
+    border-radius: 2px;
+}
+
+.cross__top {
+    position: absolute;
+    transform: rotate(135deg);
+}
+
+.cross__bottom {
+    position: absolute;
+    transform: rotate(230deg);
+}
+
+// DISH CARD
+.dish-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    // padding: 16px;
+}
+
+.dish-card--last-in-section {
+    margin-bottom: 0;
+}
+
+.dish-card--new {
+    border: 1px solid $color-green;
+    border-radius: 3px;
+    position: relative;
+    padding: 16px;
+}
+
+.dish-card--new__new-label {
+    position: absolute;
+    top: 10px;
+    left: -27px;
+    background-color: $color-green;
+    color: $color-white;
+    transform: rotate(270deg);
+}
+
+.new-label__text {
+    padding: 1px 4px;
+}
+
+.dish-card__header {
+    display: flex;
+    align-items: flex-end;
+    font-size: $font-22;
+}
+
+.dish-card__title {
+    // white-space: nowrap;
+}
+
+.dish-sandwich-sizes-padding {
+    padding-left: 5px;
+}
+
+.dish-card__dotted-line {
+    width: 100%;
+    border-top: 1px dashed black;
+    height: 1px;
+    margin: 0;
+    margin: auto 5px 0 5px;
+}
+
+.dish-card__ingredients {
+    font-size: $font-14;
+}
+
+.dish-card__image {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    border-radius: 6px;
+}
+
+.dish-card__soup-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish-card__soup-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .dish-card {
+        padding: 16px;
+    }
+}
