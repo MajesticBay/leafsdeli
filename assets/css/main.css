@@ -479,7 +479,6 @@ body {
 .about-us__img {
   width: 100%;
   height: auto;
-  max-height: 376px;
 }
 
 .about-us__desc-container {
@@ -550,6 +549,7 @@ body {
   padding-right: 16px;
   padding-bottom: 30px;
   font-size: 44px;
+  text-align: center;
 }
 
 .map-wrapper__google-map-container {
@@ -620,7 +620,7 @@ body {
     flex-direction: column;
     justify-content: center;
     max-width: 500px;
-    padding-left: 66px;
+    padding-left: 82px;
   }
 
   .about-us__top-paragraph {
