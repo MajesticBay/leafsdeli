@@ -1,6 +1,5 @@
 html {
-  scroll-behavior: smooth;
-}
+  scroll-behavior: smooth; }
 
 *,
 *::before,
@@ -9,15 +8,13 @@ html {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 /* Fix the bug that causes body go out of screen border and because of that horizontal scrolling. */
 /* https://stackoverflow.com/a/42798283/5184474 */
 html,
 body {
-  position: relative;
-}
+  position: relative; }
 
 /*
 body {
@@ -114,8 +111,7 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -129,38 +125,31 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
-}
+  display: block; }
 
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
 ol,
 ul {
-  list-style: none;
-}
+  list-style: none; }
 
 blockquote,
 q {
-  quotes: none;
-}
+  quotes: none; }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
-  content: none;
-}
+  content: '';
+  content: none; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 /*# sourceMappingURL=reset.css.map */
