@@ -310,7 +310,7 @@ a {
 .dish-card__header {
   display: flex;
   align-items: flex-end;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .dish-sandwich-sizes-padding {
@@ -326,6 +326,7 @@ a {
 }
 
 .dish-card__ingredients {
+  padding-left: 2px;
   font-size: 14px;
 }
 
@@ -347,9 +348,18 @@ a {
   flex-direction: column;
 }
 
+@media (min-width: 375px) {
+  .dish-card__header {
+    font-size: 21px;
+  }
+}
 @media (min-width: 768px) {
   .dish-card {
     padding: 16px;
+  }
+
+  .dish-card__header {
+    font-size: 22px;
   }
 }
 body {
@@ -448,7 +458,7 @@ body {
   line-height: 120%;
   text-align: center;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .content {
@@ -550,7 +560,6 @@ body {
   padding-right: 16px;
   padding-bottom: 30px;
   font-size: 44px;
-  text-align: center;
 }
 
 .map-wrapper__google-map-container {
@@ -641,11 +650,15 @@ body {
   }
 
   .map {
-    padding-top: 50px;
+    padding-top: 100px;
   }
 
   .map-wrapper {
     padding-bottom: 60px;
+  }
+
+  .map-wrapper__header {
+    text-align: center;
   }
 
   .map-wrapper__google-map-container {

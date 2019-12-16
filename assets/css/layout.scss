@@ -113,7 +113,7 @@ body {
     line-height: 120%;
     text-align: center;
     color: $color-white;
-    font-size: $font-20;
+    font-size: $font-21;
 }
 
 .content {
@@ -225,7 +225,6 @@ body {
     padding-right: 16px;
     padding-bottom: 30px;
     font-size: $font-44;
-    text-align: center;
 }
 
 .map-wrapper__google-map-container {
@@ -333,10 +332,15 @@ body {
 
     // MAP
     .map {
-        padding-top: 50px;
+        padding-top: 100px;
     }
+
     .map-wrapper {
         padding-bottom: 60px;
+    }
+
+    .map-wrapper__header {
+        text-align: center;
     }
 
     .map-wrapper__google-map-container {

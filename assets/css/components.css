@@ -145,7 +145,7 @@
 .dish-card__header {
   display: flex;
   align-items: flex-end;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .dish-sandwich-sizes-padding {
@@ -161,6 +161,7 @@
 }
 
 .dish-card__ingredients {
+  padding-left: 2px;
   font-size: 14px;
 }
 
@@ -182,9 +183,18 @@
   flex-direction: column;
 }
 
+@media (min-width: 375px) {
+  .dish-card__header {
+    font-size: 21px;
+  }
+}
 @media (min-width: 768px) {
   .dish-card {
     padding: 16px;
+  }
+
+  .dish-card__header {
+    font-size: 22px;
   }
 }
 

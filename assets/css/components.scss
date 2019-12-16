@@ -151,7 +151,7 @@
 .dish-card__header {
     display: flex;
     align-items: flex-end;
-    font-size: $font-22;
+    font-size: $font-16;
 }
 
 .dish-card__title {
@@ -171,6 +171,7 @@
 }
 
 .dish-card__ingredients {
+    padding-left: 2px;
     font-size: $font-14;
 }
 
@@ -192,8 +193,19 @@
     flex-direction: column;
 }
 
+@media (min-width: 375px) {
+    .dish-card__header {
+        font-size: $font-21;
+    }
+}
+
+
 @media (min-width: 768px) {
     .dish-card {
         padding: 16px;
+    }
+
+    .dish-card__header {
+        font-size: $font-22;
     }
 }
