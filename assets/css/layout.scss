@@ -12,12 +12,12 @@ body {
 }
 
 // NAVBAR
-#nav-link.anchor {
-    display: block;
-    position: relative;
-    top: -250px;
-    visibility: hidden;
-}
+// #nav-link {
+//     display: block;
+//     position: relative;
+//     top: -250px;
+//     visibility: hidden;
+// }
 
 .navbar-mobile__menu-opener {
     display: flex;
@@ -185,8 +185,8 @@ body {
     align-items: baseline;
     padding: 20px;
     color: inherit;
-    // padding-top: 55px;
-    // margin-top: -55px;
+    padding-top: 55px;
+    margin-top: -55px;
 }
 
 .menu-section__header {
