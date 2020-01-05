@@ -503,8 +503,7 @@ body {
   padding-bottom: 34px; }
 
 .footer__link {
-  color: #65DB30;
-  font-weight: 500; }
+  color: #65DB30; }
 
 @media (min-width: 768px) {
   .navbar-mobile__menu-opener {
