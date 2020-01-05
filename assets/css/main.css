@@ -502,6 +502,9 @@ body {
   padding-top: 34px;
   padding-bottom: 34px; }
 
+.footer__link {
+  color: #65DB30; }
+
 @media (min-width: 768px) {
   .navbar-mobile__menu-opener {
     display: none; }
