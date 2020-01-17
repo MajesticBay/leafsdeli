@@ -1,19 +1,27 @@
-function openMenu() {
-  let mobileMenu = document.getElementById("mobile-menu");
-  // let mobileMenuList = document.getElementById("mobile-menu-list");
-  // mobileMenu.style.width = "100%";
+// function openMenu() {
+//   let mobileMenu = document.getElementById("mobile-menu");
+//   mobileMenu.style.display = "flex";
+// }
+// function closeMenu() {
+//   let mobileMenu = document.getElementById("mobile-menu");
+//   mobileMenu.style.display = "none";
+// }
 
-  // if (mobileMenu.style.display === "flex") {
-  //   mobileMenu.style.display = "none";
-  // } else {
-  //   mobileMenu.style.display = "flex";
-  // }
-  mobileMenu.style.display = "flex";
+const openMenu = () => {
+  document.getElementById('mobile-menu').classList.add('show')
+  const scrollY = document.documentElement.style.getPropertyValue('--scroll-y');
+  const body = document.body;
+  body.style.position = 'fixed';
+  body.style.top = `-${scrollY}`;
+};
+const closeMenu = () => {
+  const body = document.body;
+  const scrollY = body.style.top;
+  body.style.position = '';
+  body.style.top = '';
+  window.scrollTo(0, parseInt(scrollY || '0') * -1);
+  document.getElementById('mobile-menu').classList.remove('show');
 }
-function closeMenu() {
-  // let mobileMenu = document.getElementById("mobile-menu");
-  // mobileMenu.style.width = "0";
-  let mobileMenu = document.getElementById("mobile-menu");
-  mobileMenu.style.display = "none";
-
-}
+window.addEventListener('scroll', () => {
+  document.documentElement.style.setProperty('--scroll-y', `${window.scrollY}px`);
+});

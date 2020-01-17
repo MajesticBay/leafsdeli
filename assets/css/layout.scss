@@ -44,6 +44,11 @@ body {
     background-color: $color-black;
     opacity: 0.9;
     top: 0;
+    // overflow-y: hidden;
+}
+
+.show {
+    display: flex;
 }
 
 .navbar-mobile__top {

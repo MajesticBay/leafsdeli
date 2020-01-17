@@ -32,6 +32,10 @@ body {
   top: 0;
 }
 
+.show {
+  display: flex;
+}
+
 .navbar-mobile__top {
   display: flex;
   justify-content: flex-end;
