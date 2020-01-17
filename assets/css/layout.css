@@ -79,7 +79,7 @@ body {
   position: relative;
   height: 100vh;
   max-height: 864px;
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/background-mobile.jpg);
   background-size: cover;
 }
 
@@ -126,10 +126,13 @@ body {
   padding: 16px;
 }
 
+.about-us__picture {
+  display: flex;
+}
+
 .about-us__img {
   width: 100%;
   height: auto;
-  max-height: 376px;
 }
 
 .about-us__desc-container {
@@ -241,6 +244,10 @@ body {
 
   .navbar-desktop {
     display: flex;
+  }
+
+  .top {
+    background-image: url(../images/background.jpg);
   }
 
   .top__wrapper {
