@@ -22,6 +22,7 @@
 
 <body>
     <img style="display: none;" src="assets/images/background.jpg">
+    <img style="display: none;" src="assets/images/background-mobile.jpg">
     <div class="main">
         <nav class="navbar-mobile__menu-opener">
             <img class="p-16" src="./assets/images/menu-hamburger.svg" alt="open mobile menu button (click to open mobile menu)" onclick="openMenu()">
@@ -681,54 +682,10 @@
                             <img class="dish-card__image pt-12" src="./assets/images/photos/chicken-teriyaki-plate.jpg" alt="chicken teriyaki">
                         </div>
                     </section>
-                    <section id="snacks" class="menu-section">
-                        <h1 class="menu-section__header">Snacks</h1>
-                        <div class="dish-card">
-                            <div class="dish-card__header">
-                                <span class="dish-card__title text-nowrap">Hard Boiled Egg</span>
-                                <hr class="dish-card__dotted-line">
-                                <span class="dish-card__price">0.75</span>
-                            </div>
-                        </div>
-                        <div class="dish-card">
-                            <div class="dish-card__header">
-                                <span class="dish-card__title text-nowrap">Macaroni/Potato Salad</span>
-                                <hr class="dish-card__dotted-line">
-                                <span class="dish-card__price">1.99</span>
-                            </div>
-                        </div>
-                        <div class="dish-card">
-                            <div class="dish-card__header">
-                                <span class="dish-card__title text-nowrap">Chips</span>
-                                <hr class="dish-card__dotted-line">
-                                <span class="dish-card__price">1.00</span>
-                            </div>
-                        </div>
-                        <div class="dish-card">
-                            <div class="dish-card__header">
-                                <span class="dish-card__title text-nowrap">Jumbo Cookies</span>
-                                <hr class="dish-card__dotted-line">
-                                <span class="dish-card__price">1.99</span>
-                            </div>
-                        </div>
-                        <div class="dish-card">
-                            <div class="dish-card__header">
-                                <span class="dish-card__title text-nowrap">Muffin</span>
-                                <hr class="dish-card__dotted-line">
-                                <span class="dish-card__price">1.99</span>
-                            </div>
-                        </div>
-                        <div class="dish-card dish-card--last-in-section">
-                            <div class="dish-card__header">
-                                <span class="dish-card__title text-nowrap">Candy Bar</span>
-                                <hr class="dish-card__dotted-line">
-                                <span class="dish-card__price">1.99</span>
-                            </div>
-                        </div>
-                    </section>
                     <section id="espresso" class="menu-section">
                         <h1 class="menu-section__header">Espresso</h1>
-                        <div class="dish-card">
+                        <img class="dish-card__image" src="./assets/images/photos/coffee.jpg" alt="coffee">
+                        <div class="dish-card pt-12">
                             <div class="dish-card__header">
                                 <span class="dish-card__title text-nowrap">Latte</span>
                                 <span class="dish-card__ingredients">16oz/20oz</span>
@@ -771,7 +728,8 @@
                     </section>
                     <section id="beverages" class="menu-section">
                         <h1 class="menu-section__header">Beverages</h1>
-                        <div class="dish-card">
+                        <img class="dish-card__image" src="./assets/images/photos/beverages.jpg" alt="beverages">
+                        <div class="dish-card pt-12">
                             <div class="dish-card__header">
                                 <span class="dish-card__title text-nowrap">Fountain Drinks</span>
                                 <hr class="dish-card__dotted-line">
@@ -795,6 +753,51 @@
                         <div class="dish-card dish-card--last-in-section">
                             <div class="dish-card__header">
                                 <span class="dish-card__title text-wrap--important">2% Milk and 1% Chocolate Milk</span>
+                                <hr class="dish-card__dotted-line">
+                                <span class="dish-card__price">1.99</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="snacks" class="menu-section">
+                        <h1 class="menu-section__header">Snacks</h1>
+                        <div class="dish-card">
+                            <div class="dish-card__header">
+                                <span class="dish-card__title text-nowrap">Hard Boiled Egg</span>
+                                <hr class="dish-card__dotted-line">
+                                <span class="dish-card__price">0.75</span>
+                            </div>
+                        </div>
+                        <div class="dish-card">
+                            <div class="dish-card__header">
+                                <span class="dish-card__title text-nowrap">Macaroni/Potato Salad</span>
+                                <hr class="dish-card__dotted-line">
+                                <span class="dish-card__price">1.99</span>
+                            </div>
+                        </div>
+                        <div class="dish-card">
+                            <div class="dish-card__header">
+                                <span class="dish-card__title text-nowrap">Chips</span>
+                                <hr class="dish-card__dotted-line">
+                                <span class="dish-card__price">1.00</span>
+                            </div>
+                        </div>
+                        <div class="dish-card">
+                            <div class="dish-card__header">
+                                <span class="dish-card__title text-nowrap">Jumbo Cookies</span>
+                                <hr class="dish-card__dotted-line">
+                                <span class="dish-card__price">1.99</span>
+                            </div>
+                        </div>
+                        <div class="dish-card">
+                            <div class="dish-card__header">
+                                <span class="dish-card__title text-nowrap">Muffin</span>
+                                <hr class="dish-card__dotted-line">
+                                <span class="dish-card__price">1.99</span>
+                            </div>
+                        </div>
+                        <div class="dish-card dish-card--last-in-section">
+                            <div class="dish-card__header">
+                                <span class="dish-card__title text-nowrap">Candy Bar</span>
                                 <hr class="dish-card__dotted-line">
                                 <span class="dish-card__price">1.99</span>
                             </div>
