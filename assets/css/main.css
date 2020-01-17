@@ -425,7 +425,8 @@ body {
 
 .about-us__img {
   width: 100%;
-  height: auto; }
+  height: auto;
+  max-height: 376px; }
 
 .about-us__desc-container {
   grid-row: 1 / 2;
