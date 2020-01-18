@@ -489,7 +489,6 @@ body {
 .about-us__picture {
   display: flex;
   height: auto;
-  max-height: 376px;
 }
 
 .about-us__img {
