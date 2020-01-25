@@ -78,7 +78,6 @@ body {
   align-items: center;
   position: relative;
   height: 100vh;
-  max-height: 864px;
   background-image: url(../images/background-mobile.jpg);
   background-size: cover;
 }
