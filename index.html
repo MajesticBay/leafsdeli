@@ -10,19 +10,15 @@
     <title>Leaf's Deli</title>
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <!-- <script src="assets/js/bgLoader.js"></script> -->
+    <link rel="preload" href="assets/images/background.jpg" as="image">
+    <link rel="preload" href="assets/images/background-mobile.jpg" as="image">
     <script src="assets/js/toggleMenu.js"></script>
     <script src="assets/js/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDF76B6okoa7LQRJ_IPORKnuQwxWKwcdkU&callback=initMap"
         async defer></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script> -->
 </head>
 
 <body>
-    <img style="display: none;" src="assets/images/background.jpg">
-    <img style="display: none;" src="assets/images/background-mobile.jpg">
     <div class="main">
         <nav class="navbar-mobile__menu-opener">
             <img class="p-16" src="./assets/images/menu-hamburger.svg" alt="open mobile menu button (click to open mobile menu)" onclick="openMenu()">
@@ -819,7 +815,7 @@
                     <p>2201 W Valley Highway</p>
                     <p>N Suite B, Auburn, WA 98001</p>
                 </div>
-                <p class="pt-12">© 2019, Leaf’s Deli Inc.</p>
+                <p class="pt-12">© 2020, Leaf’s Deli Inc.</p>
                 <p class="pt-12 pb-44">Developed by 
                     <a class="footer__link" href="http://23rdsquad.us/" target="_blank">23rdsquad.us</a>
                 </p>
