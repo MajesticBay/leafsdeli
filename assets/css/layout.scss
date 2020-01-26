@@ -320,13 +320,16 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        max-width: 500px;
+        max-width: 650px;
+        
         // padding: 100px 100px 0 100px;
         padding-left: 82px;
     }
 
     .about-us__top-paragraph {
         padding-bottom: 20px;
+        font-size: $font-24;
+        line-height: 150%;
     }
 
     // MENU
