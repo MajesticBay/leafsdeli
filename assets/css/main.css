@@ -299,10 +299,10 @@ a {
   display: flex;
   flex-direction: column; }
 
-@media (min-width: 375px) {
+@media only screen and (min-width: 375px) {
   .dish-card__header {
     font-size: 21px; } }
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .dish-card {
     padding: 16px; }
 
@@ -506,7 +506,7 @@ body {
 .footer__link {
   color: #65DB30; }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .navbar-mobile__menu-opener {
     display: none; }
 
@@ -575,7 +575,7 @@ body {
 
   .map-wrapper__google-map-container {
     height: 650px; } }
-@media (min-width: 900px) {
+@media only screen and (min-width: 900px) {
   .menu-section__plain-text {
     margin-left: 16px; }
 
@@ -589,7 +589,7 @@ body {
 
   .map-wrapper {
     width: 75%; } }
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   .menu-wrapper {
     grid-template-columns: 480px 480px;
     column-gap: 100px; } }

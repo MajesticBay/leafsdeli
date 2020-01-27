@@ -193,14 +193,14 @@
     flex-direction: column;
 }
 
-@media (min-width: 375px) {
+@media only screen and (min-width: 375px) {
     .dish-card__header {
         font-size: $font-21;
     }
 }
 
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .dish-card {
         padding: 16px;
     }
