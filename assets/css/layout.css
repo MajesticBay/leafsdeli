@@ -183,6 +183,8 @@ body {
   background-color: #151515;
   color: #ffffff;
   text-align: center; }
+  .footer__address-link {
+    color: #ffffff; }
 
 .footer__footer-wrapper {
   display: flex;

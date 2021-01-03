@@ -244,6 +244,10 @@ body {
     background-color: $color-black;
     color: $color-white;
     text-align: center;
+
+    &__address-link {
+        color: $color-white
+    }
 }
 
 .footer__footer-wrapper {
@@ -321,7 +325,7 @@ body {
         flex-direction: column;
         justify-content: center;
         max-width: 650px;
-        
+
         // padding: 100px 100px 0 100px;
         padding-left: 82px;
     }
