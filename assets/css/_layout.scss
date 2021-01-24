@@ -113,9 +113,19 @@ body {
 //     justify-content: space-between;
 // }
 
-.navbar-list__navbar-item {
-    color: $color-white;
+.navbar-list {
+    &__navbar-item {
+        color: $color-white;
+    }
+
+    &__navbar-item-link {
+        color: $color-white;
+    }
 }
+
+// .navbar-list__navbar-item {
+//     color: $color-white;
+// }
 
 // TOP
 .top {

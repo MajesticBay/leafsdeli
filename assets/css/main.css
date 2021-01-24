@@ -493,6 +493,10 @@ body {
   color: #ffffff;
 }
 
+.navbar-list__navbar-item-link {
+  color: #ffffff;
+}
+
 .top {
   display: -webkit-box;
   display: -ms-flexbox;
