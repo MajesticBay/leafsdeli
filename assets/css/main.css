@@ -179,6 +179,10 @@ a {
   white-space: normal !important;
 }
 
+.mt-12 {
+  margin-top: 12px;
+}
+
 .p-8 {
   padding: 8px;
 }
