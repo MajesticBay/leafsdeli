@@ -517,6 +517,7 @@ body {
           align-items: center;
   position: relative;
   height: 100vh;
+  min-height: -webkit-fill-available;
   background-image: url(../images/background-mobile.jpg);
   background-size: cover;
 }
