@@ -1,3 +1,7 @@
 .sass-cache/
 .DS_Store
 assets/images/logos
+/img.png
+/manifest.json
+/offline.html
+/service-worker.js
